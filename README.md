@@ -63,3 +63,10 @@ implementation is quite popular. But implementing using CNN will be easy and eff
 case . For our dataset we need to label each photo as male or female to train the CNN. For that
 we can use dictionaries and match each name with male or female . Now we do cross
 validation and train the data and get the accuracies and compare for the best model.
+
+# References !!
+1)​ https://pythonmachinelearning.pro/face-recognition-with-eigenfaces/ <br />
+2)​ https://sebastianraschka.com/Articles/2014_python_lda.html<br />
+3)​ https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/<br />
+4)​ https://cmusatyalab.github.io/openface/<br />
+5)​ https://datascience.stackexchange.com/questions/18804/sklearn-select-n-best-using-classifier<br />
