@@ -44,7 +44,7 @@ X_test = np.array(X_test)
 X_tt1 =X_test.reshape((X_test.shape[0],256*256*3))
 print("After conversion dimension for X_train = ", X_tt1.shape)
 
-#PCA model
+#PCA model (unsupervised learning)
 pca = PCA(n_components = 63,whiten = True)
 #Apply PCA transformation(dimension reduction)
 X_train_pca = pca.fit_transform(X_tt)
