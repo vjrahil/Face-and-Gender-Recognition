@@ -1,3 +1,4 @@
+How to run the code !!
 1) Select the dataset on which you want to do face recognition and gender recognition.
 2) Create an output folder and run the q.py file which will preprocess all your images and add to the output folder in respective folders.
 3) Run the pca.py file which will give you the accuracy of face recogniton based on PCA and LDA.
